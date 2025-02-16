@@ -4,6 +4,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url('https://fonts.googleapis.com/css2?family=Molle&family=Montserrat&display=swap');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -49,8 +50,6 @@ table {
 	border-spacing: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Molle&family=Montserrat&display=swap');
-
 :root {
 	--fonts: Montserrat, Molle, serif; 
 	font-size: 16px;
@@ -64,6 +63,8 @@ table {
     --white: #FFFFFF;
     --black: #000000;
 }
+
+/* -----SKIP LINK STYLES----- */
 
 #skip {
 	position: absolute;
@@ -80,8 +81,32 @@ table {
 	height: auto;
 }
 
+
+/* -----BODY STYLES----- */
+
+body {
+	font-family: "Montserrat", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
 /* -----HEADER STYLES----- */
 
 header {
-	background: linear-gradient(to bottom, #55BCD5 0%, #ffffff 100%)
+	background: linear-gradient(to bottom, #55BCD5 0%, #ffffff 100%);
+	padding: 10px;
+}
+
+/* -----HEADING STYLES----- */
+
+h1 {
+	font-family: "Molle", serif;
+	font-size: 2rem;
+	text-align: left;
+}
+
+h2 {
+	font-family: "Molle", serif;
+	font-size: 1rem;
+	text-align: left;
 }
