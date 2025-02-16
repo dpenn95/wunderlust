@@ -101,12 +101,21 @@ header {
 
 h1 {
 	font-family: "Molle", serif;
-	font-size: 2rem;
+	font-size: 3rem;
 	text-align: left;
+	padding: 15px 0px 0px 15px;
 }
 
 h2 {
 	font-family: "Molle", serif;
-	font-size: 1rem;
+	font-size: 2rem;
 	text-align: left;
+	padding: 15px 0px 0px 15px;
+}
+
+/* -----LINE STYLES----- */
+
+p {
+	line-height: 25px;
+	padding:  0px 15px;
 }
