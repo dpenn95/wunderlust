@@ -83,5 +83,5 @@ table {
 /* -----HEADER STYLES----- */
 
 header {
-	background-color: linear-gradient(to bottom, #499BD2 100%, #FFFFFF 0%);
+	background: linear-gradient(to bottom, #499BD2 100%, #FFFFFF 0%);
 }
