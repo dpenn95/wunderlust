@@ -52,6 +52,7 @@ table {
 @import url('https://fonts.googleapis.com/css2?family=Molle&family=Montserrat&display=swap');
 
 :root {
+	--fonts: Montserrat, Molle, serif; 
 	font-size: 16px;
     /* color palette from https://docs.google.com/document/d/1RoiMZyPaz3tvXnNCc2WtCYxWye5tR5u8fvko5yRoXyw/edit?tab=t.0#heading=h.vym9xnbew11x */
     --yellow: #F6D64A;
@@ -66,8 +67,17 @@ table {
 
 #skip {
 	position: absolute;
-	transform: translateY(-200%);
-	transition: transform 0.3s;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+#skip:focus {
+	position: static;
+	width: auto;
+	height: auto;
 }
 
 /* -----HEADER STYLES----- */
