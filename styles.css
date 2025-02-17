@@ -233,6 +233,10 @@ picture img {
 	width: 100%;
 }
 
+img {
+	width: 100%;
+}
+
 /* -----FORM STYLES----- */
 
 form label {
@@ -295,6 +299,3 @@ input[type=radio] {
 	width: 12%;
 }
 
-#prefEmail {
-	border: 4px solid var(--purple);
-}
