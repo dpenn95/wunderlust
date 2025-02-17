@@ -299,3 +299,11 @@ input[type=radio] {
 	width: 12%;
 }
 
+/* ----- MEDIUM SCREEN STYLES ----- */
+
+@media screen and (min-width: 750px) {
+	ul {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+}
