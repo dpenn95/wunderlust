@@ -185,7 +185,7 @@ p {
 	font-style: italic;
 }
 
-#about section {
+#about {
 	background: var(--blue);
 	padding: 24px;
 }
@@ -193,8 +193,6 @@ p {
 #about div {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	gap: 20px;
-	justify-items: center;
 	text-align: center;
 }
 
