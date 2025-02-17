@@ -292,5 +292,9 @@ input[type=submit] {
 }
 
 input[type=radio] {
-	width: 50%;
+	width: 12%;
+}
+
+.radio-input {
+	border: 4px solid var(--purple);
 }
