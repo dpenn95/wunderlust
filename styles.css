@@ -256,6 +256,7 @@ form input {
 	font-size: 20px;
 	font-family: 'Montserrat';
 	padding: 10px;
+	margin-bottom: 20px;
 }
 
 form legend {
@@ -263,4 +264,9 @@ form legend {
 	font-size: 20px;
 	font-weight: 600;
 	margin-bottom: 4px;
+}
+
+input[type=submit] {
+	background: var(--purple);
+	color: var(--white);
 }
