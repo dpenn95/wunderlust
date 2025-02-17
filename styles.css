@@ -305,6 +305,7 @@ input[type=radio] {
 	ul {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
+		gap: 24px;
 	}
 
 	li {
@@ -313,7 +314,7 @@ input[type=radio] {
 		text-align: center;
 	}
 
-	li .active {
+	.active {
 		background-color: var(--yellow);
 		padding: 24px;
 		text-align: center;
