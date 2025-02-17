@@ -118,7 +118,7 @@ h3 {
 	font-size: 2rem;
 	text-align: left;
 	padding: 15px 0px 0px 15px;
-	margin: 20px 0px;
+	margin-bottom: 20px;
 }
 
 /* -----LINE STYLES----- */
@@ -132,6 +132,7 @@ p {
 
 #plan {
 	background-color: var(--yellow);
+	padding: 24px 0px;
 }
 
 #plan section {
