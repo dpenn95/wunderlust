@@ -271,7 +271,17 @@ input[type=submit] {
 	color: var(--white);
 }
 
-#destination #travelTime {
+#destination {
+	width: 100%;
+	height: 50px;
+	border: 4px solid var(--purple);
+	font-size: 20px;
+	font-family: 'Montserrat';
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+#travelTime {
 	width: 100%;
 	height: 50px;
 	border: 4px solid var(--purple);
