@@ -306,4 +306,22 @@ input[type=radio] {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 	}
+
+	li {
+		background-color: var(--white);
+		padding: 24px;
+		text-align: center;
+	}
+
+	li .active {
+		background-color: var(--yellow);
+		padding: 24px;
+		text-align: center;
+	}
+
+	a {
+		text-decoration: none;
+		color: var(--black);
+		font-weight: 600;
+	}
 }
