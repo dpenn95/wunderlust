@@ -133,17 +133,17 @@ p {
 	background-color: var(--yellow);
 }
 
-section {
+#plan section {
 	background: var(--teal);
 	padding: 20px;
 	border-radius: 8px;
 	border-color: var(--white);
+	border: 1px solid white;
 }
 
-section div {
+#plan div {
 	display: grid;
 	gap: 24px;
-	border: 1px solid white;
 	border-radius: 8px;
 }
 
@@ -156,6 +156,6 @@ section div {
 	margin-bottom: 10px;
 }
 
-picture {
+picture img {
 	width: 100%;
 }
