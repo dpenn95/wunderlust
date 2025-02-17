@@ -185,6 +185,31 @@ p {
 	font-style: italic;
 }
 
+#about section {
+	background: var(--blue);
+	padding: 24px;
+}
+
+#about div {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+	justify-items: center;
+	text-align: center;
+}
+
+#about section h4 {
+	font-family: 'Montserrat';
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#about section p {
+	font-family: 'Montserrat';
+	font-size: 20px;
+	font-weight: 100;
+}
+
 /* -----IMAGE STYLES----- */
 
 #img-grid {
