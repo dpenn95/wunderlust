@@ -324,6 +324,21 @@ input[type=radio] {
 		grid-template-columns: 1fr 1fr;
 	}
 
+	#intro {
+		padding: 40px;
+	}
+
+	#plan {
+		padding: 40px;
+	}
+
+	#testimonials {
+		padding: 40px;
+	}
+
+	header {
+		padding: 40px;
+	}
 
 	.active {
 		background-color: var(--yellow);
