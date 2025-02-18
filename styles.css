@@ -467,4 +467,56 @@ input[type=radio] {
 	}
 }
 
+/* ----- LARGE SCREEN STYLES ----- */
 
+@media screen and (min-width: 980px) {
+
+	header {
+		display: grid;
+		grid-template-columns: 130px 275px 300px;
+		grid-template-rows: 70px;
+		padding: 40px;
+	}
+
+	header img {
+		width: 150px;
+	}
+	
+	h1 {
+		font-family: "Molle", serif;
+		font-size: 2rem;
+		text-align: left;
+		padding: 15px 0px 0px 15px;
+	}
+
+	p {
+		line-height: 25px;
+		padding:  0px 15px;
+		font-size: 14px;
+	}
+
+	#intro {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		padding: 40px;
+	}
+
+	#img-grid {
+		display: grid;
+		grid-column: 2 / 2;
+	}
+
+	#intro p {
+		display: grid;
+		grid-column: 1 / 1;
+	}
+
+	#plan div {
+		display: grid;
+		grid-template-columns: 1fr 1f 1fr 1fr;
+		gap: 24px;
+		border-radius: 8px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
