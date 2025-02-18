@@ -151,9 +151,8 @@ h3 {
   
 #menu-toggle ul {
   position: absolute;
-  width: 300px;
-  margin: -100px 0 0 -50px;
-  padding: 50px;
+  width: 500px;
+  margin: -100px 0 0 -420px;
   padding-top: 125px;
   background: #ffffff;
   list-style-type: none;
@@ -163,8 +162,15 @@ h3 {
   transition: top 0.3s ease; 
 }
 
+#menu-toggle a {
+	text-decoration: none;
+	color: var(--black);
+	background-color: var(--teal);
+	padding: 40px 200px;
+}
+
 #menu-toggle input:checked ~ ul {
-	left: 0;
+	top: 0;
   }
 }
 
