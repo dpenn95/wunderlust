@@ -356,6 +356,25 @@ input[type=radio] {
 	width: 12%;
 }
 
+/* -----FOOTER STYLES----- */
+
+footer {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	text-align: center;
+	background: var(--light-gray);
+	padding: 10px;
+}
+
+footer p {
+	padding: 10px 0px 15px 0px;
+}
+
+footer a {
+	text-decoration: none;
+	color: var(--black);
+}
+
 /* ----- MEDIUM SCREEN STYLES ----- */
 
 @media screen and (min-width: 750px) {
@@ -465,6 +484,25 @@ input[type=radio] {
 		color: var(--white);
 		width: 400px;
 	}
+}
+
+footer {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	text-align: center;
+	background: var(--light-gray);
+	padding: 10px;
+}
+
+footer p {
+	padding: 10px 0px 15px 0px;
+	width: 300px;
+	grid-column: 1 / 1;
+}
+
+footer a {
+	text-decoration: none;
+	color: var(--black);
 }
 
 /* ----- LARGE SCREEN STYLES ----- */
