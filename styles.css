@@ -581,4 +581,14 @@ input[type=radio] {
 		height: 200px;
 	}
 
+	#contact form {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 40px;
+	}
+
+	#contact fieldset {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
 }
