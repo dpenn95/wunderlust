@@ -161,23 +161,27 @@ h3 {
 	z-index: 2;
 }
 
-#menu-toggle ul {
-	position: absolute;
-	width: 300px;
-	margin: -100px 0 0 -50px;
-	padding: 50px;
-	padding-top: 125px;
-	background: #ededed;
-	list-style-type: none;
-	/* Hide the menu off-screen to the left */
-	top: -100%;
-	-webkit-transition: left 0.3s ease;
-	-o-transition: left 0.3s ease;
-	transition: left 0.3s ease; 
+#menu-toggle li {
+	padding: 10px 0;
+	font-size: 22px;
   }
+  
+#menu-toggle ul {
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  background: #ededed;
+  list-style-type: none;
+  left: -100%;
+  -webkit-transition: left 0.3s ease;
+  -o-transition: left 0.3s ease;
+  transition: left 0.3s ease; 
+}
 
 #menu-toggle input:checked ~ ul {
-	top: 0;
+	left: 0;
   }
 
 /* -----LINE STYLES----- */
