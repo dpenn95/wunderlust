@@ -199,6 +199,7 @@ p {
 
 #about img {
 	width: 100px;
+	height: 140px;
 }
 
 #about section h4 {
@@ -370,7 +371,7 @@ input[type=radio] {
 	input[type=submit] {
 		background: var(--purple);
 		color: var(--white);
-		width: 200px;
+		width: 400px;
 	}
 }
 
