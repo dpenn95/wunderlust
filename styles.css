@@ -513,6 +513,16 @@ footer a {
 		color: var(--black);
 	}
 
+	#menu-toggle label {
+		position: relative;
+		top: -1000%;
+	}
+
+	#toggle {
+		position: relative;
+		top: -1000%;
+	}
+
 }
 
 
@@ -640,5 +650,15 @@ footer a {
 	#contact fieldset {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	#menu-toggle label {
+		position: relative;
+		top: -1000%;
+	}
+
+	#toggle {
+		position: relative;
+		top: -1000%;
 	}
 }
