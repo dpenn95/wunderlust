@@ -362,7 +362,10 @@ input[type=radio] {
 		align-items: self-end;
 	}
 
-	
+	#about img {
+		width: 100px;
+		height: 140px;
+	}
 }
 
 
