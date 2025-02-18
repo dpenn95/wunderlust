@@ -319,10 +319,6 @@ input[type=radio] {
 		grid-template-columns: 1fr 1fr;
 	}
 
-	#img-grid:first-images {
-		grid-column-start: 1;
-		grid-column-end: 3;
-	}
 
 	.active {
 		background-color: var(--yellow);
@@ -335,4 +331,15 @@ input[type=radio] {
 		color: var(--black);
 		font-weight: 600;
 	}
+
+	#plan div {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 24px;
+		border-radius: 8px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
 }
+
+
