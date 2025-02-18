@@ -156,10 +156,12 @@ h3 {
   padding-top: 125px;
   background: #ffffff;
   list-style-type: none;
-  top: -1000%;
+  top: -3000%;
   -webkit-transition: top 0.3s ease;
   -o-transition: top 0.3s ease;
   transition: top 0.3s ease; 
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 #menu-toggle a {
@@ -167,6 +169,7 @@ h3 {
 	color: var(--black);
 	background-color: var(--teal);
 	padding: 40px 200px;
+	display: grid;
 }
 
 #toggle {
