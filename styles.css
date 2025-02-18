@@ -368,6 +368,11 @@ input[type=radio] {
 		height: 140px;
 	}
 
+	picture {
+		display: grid;
+		grid-column: 1 / -1;
+	}
+
 	input[type=submit] {
 		background: var(--purple);
 		color: var(--white);
