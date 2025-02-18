@@ -366,6 +366,12 @@ input[type=radio] {
 		width: 100px;
 		height: 140px;
 	}
+
+	input[type=submit] {
+		background: var(--purple);
+		color: var(--white);
+		width: 200px;
+	}
 }
 
 
