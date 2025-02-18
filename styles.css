@@ -488,13 +488,14 @@ footer a {
 	footer {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr;
 		text-align: center;
 		background: var(--light-gray);
 		padding: 10px;
 	}
 	
 	footer p {
-		padding: 10px 0px 15px 0px;
+		padding: 0px 0px 15px 0px;
 		width: 300px;
 		grid-column: 1 / 1;
 	}
