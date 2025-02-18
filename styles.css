@@ -148,18 +148,6 @@ h3 {
 	width: 90px;
 }
 
-#menu-toggle input {
-	display: block;
-	width: 30px;
-	height: 30px;
-	position: absolute;
-	top: -7px;
-	left: -5px;  
-	padding: 0;
-	cursor: pointer;  
-	opacity: 0;
-	z-index: 2;
-}
 
 
 
