@@ -97,6 +97,15 @@ header {
 	padding: 10px;
 }
 
+.sr-only {
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
 /* -----HEADING STYLES----- */
 
 h1 {
@@ -311,7 +320,7 @@ input[type=radio] {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		gap: 24px;
-		width: 135%;
+		width: 125%;
 	}
 
 	li {
@@ -382,6 +391,12 @@ input[type=radio] {
 		border-radius: 8px;
 		margin-left: 20px;
 		margin-right: 20px;
+	}
+
+	#testimonials section {
+		justify-items: center;
+		text-align: center;
+		padding: 0px 64px 10px 64px;
 	}
 
 	#about div {
