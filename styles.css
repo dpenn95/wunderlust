@@ -171,7 +171,6 @@ p {
 }
 
 #testimonials section {
-	display: grid;
 	justify-items: center;
 	text-align: center;
 	padding: 0px 64px 10px 64px;
