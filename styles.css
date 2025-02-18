@@ -132,6 +132,7 @@ h3 {
 
 /* -----MENU STYLES----- */
 
+@media screen and (max-width: 750px) {
 #menu-toggle {
 	display: block;
 	position: absolute;
@@ -147,9 +148,25 @@ h3 {
 	position: absolute;
 	width: 90px;
 }
+  
+#menu-toggle ul {
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  background: #ffffff;
+  list-style-type: none;
+  top: -1000%;
+  -webkit-transition: top 0.3s ease;
+  -o-transition: top 0.3s ease;
+  transition: top 0.3s ease; 
+}
 
-
-
+#menu-toggle input:checked ~ ul {
+	left: 0;
+  }
+}
 
 /* -----LINE STYLES----- */
 
