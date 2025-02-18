@@ -137,7 +137,7 @@ h3 {
 	display: block;
 	position: absolute;
 	top: 50px;
-	right: 50px;
+	right: 150px;
 	z-index: 1;
 }
 
@@ -167,6 +167,11 @@ h3 {
 	color: var(--black);
 	background-color: var(--teal);
 	padding: 40px 200px;
+}
+
+#toggle {
+	position: relative;
+	right: -80%;
 }
 
 #menu-toggle input:checked ~ ul {
