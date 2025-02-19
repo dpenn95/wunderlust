@@ -661,4 +661,14 @@ footer a {
 		position: relative;
 		top: -1000%;
 	}
+
+	ul {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		gap: 24px;
+		width: 125%;
+		position: relative;
+		top: -230%;
+	}
+
 }
