@@ -314,7 +314,7 @@ form label {
 	}
 
 form fieldset {
-	dispaly: grid;
+	display: grid;
 	width: 100%;
 }
 
